@@ -24,12 +24,12 @@ pip install numpy pandas
 
 ## 📝 Usage
 1. Initialize the model object.
-```
+```Python
 model = Network()
 ```
 
 2. Define architecture. Ensure number of neurons of first layer is equal to the input size. 
-```
+```Python
 model.add(input_length)
 model.add(3)
 model.add(1)
